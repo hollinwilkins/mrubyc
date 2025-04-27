@@ -49,5 +49,7 @@ pub fn build(b: *std.Build) void {
             "vm.c",
         },
     });
+    mrubyc.installHeader(b.path("./src/mrubyc.h"), "mrubyc");
+
     b.installArtifact(mrubyc);
 }
