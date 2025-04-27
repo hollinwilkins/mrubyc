@@ -29,3 +29,7 @@ html/
 
 # PicoRuby for testing
 picoruby/
+
+# Zig Build
+zig-out
+.zig-cache
